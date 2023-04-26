@@ -102,6 +102,7 @@ print:
 	lw	$t1, contagem
 	li	$t2, 0
 	
+# loop e condicional que faz a impressao do vetor
 loopPrintVetor:
 	bge	$t2, $t1, encerraPrint
 	li	$v0, 1
